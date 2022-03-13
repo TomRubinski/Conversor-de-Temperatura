@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: #c4beb7;
+} /* tudo */
+
+h2 {
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 23px;
+} /* titulo */
+
+#geral {
+    margin-top: 1%;
+
+} /* div geral */
+
+#nmr-valor {
+    font-size: 24px;
+    margin-right: 0.1%;
+    border-style: inset;
+    border-color: white;
+    color: white;
+    background-color: black;
+} /* entrada */
+
+#inserida {
+    font-size: 25px;
+    margin-right: 0.1%;
+    border-style: inset;
+    border-color: white;
+    color: white;
+    background-color: black;
+} /* select escolha */
+
+#para-button {
+    font-size: 25px;
+    margin-right: 0.1%;
+    background-color: rgb(80, 3, 3);
+    color: white;
+    border-style: inset;
+} /* botão desativado ilustrativo "para"*/
+
+#resultado {
+    font-size: 25px;
+    margin-right: 0.1%;
+    border-style: inset;
+    border-color: white;
+    color: white;
+    background-color: black;
+} /* select resultado */
+
+#igual-button {
+    font-size: 25px;
+    margin-right: 0.1%;
+    background-color: rgb(80, 3, 3);
+    border-style: inset;
+    color: white;
+} /* botão desativado ilustrativo "igual" */
+
+#saida {
+    font-size: 25px;
+    border-style: inset;
+    border-color: white;
+    color: white;
+    background-color: black;
+} /* campo de saida */
+
+#calcular {
+    font-size: 25px;
+    margin-top: 1%;
+    padding-left: 8%;
+    padding-right: 8%;
+    border-radius: 5px;
+    background-color: rgb(0, 48, 16);
+    color: #c4beb7;
+} /* Botão que ativa o cálculo */

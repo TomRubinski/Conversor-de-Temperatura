@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="./Style/style.css">
+  </head>
+  <body>
+    
+    <h2> CONVERSOR DE TEMPERATURA </h2>
+
+    <!-- 
+         Área para o usuário colocar o valor da temperatura e sua escala.
+         Div "selecione-temperatura" para possível estilização geral da div.
+         Input "nmr-valor" para valor numérico da temperatura, id para seleção no script.
+         Select "escala-inserida" para selecionar a escala da temperatura, id para possível estilização.
+         Id Options "c-um", "k-um", "f-um" e "r-um" para seleção em script. 
+    -->
+
+    <div id="geral">
+      <input type="number" placeholder="Insira o valor da temperatura" id="nmr-valor" required>
+      <select name="inserida" id="inserida" required>
+         <option value="celsius" id="c-um">Celsius</option>
+          <option value="kelvin" id="k-um">Kelvin</option>
+          <option value="fahrenheite" id="f-um">Fahrenheite</option>
+          <option value="rankine" id="r-um">Rankine</option>
+      </select>
+
+      <button disabled="" id="para-button">PARA</button>
+    <!--
+         Área para o usuário escolher a resposta em escala.
+         Div "temperatura-resultado" para possível estilização geral.
+         Select "resultado" para o usuário escolher em qual escalar quer o resultado da conversão.
+         Id Options "c-dois", "k-dois", "f-dois", "r-dois" para seleção em script.
+         Input text desativado para saída do resultado pelo script.
+    -->
+
+      <select name="resultado" id="resultado" required>
+          <option value="celsius" id="c-dois">Celsius</option>
+          <option value="kelvin" id="k-dois">Kelvin</option>
+          <option value="fahrenheite" id="f-dois">Fahrenheite</option>
+          <option value="rankine" id="r-dois">Rankine</option>
+      </select>
+
+      <button disabled=""id="igual-button">=</button>
+      <input type="text" value="Resultado" id="saida" disabled="">
+    </div>
+
+    <!--
+         Div "" para possível estilização.
+         Button "Calcular", botão para dar o gatilho do script.
+         Id's para seleção e estilização.
+    --> 
+    <div id="">
+      <button onclick="calcularTemperatura(event)" id="calcular"> CALCULAR </button>
+    </div>
+    <!--
+         Script para possibilitar a conversão.
+    -->
+    <script src="./Script/script.js" type="text/javascript"></script>
+  </body>
+</html>
